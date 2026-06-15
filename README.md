@@ -1,22 +1,8 @@
-# 🚢 Cluster K3S — La Plateforme_
+# 🚢 Cluster K3S 
 
-> Déploiement et gestion d'un cluster Kubernetes K3S sur 3 VM Debian 12  
-> **Bachelor IT Cybersécurité** — La Plateforme_ Marseille — Juin 2026
-
----
-
-## 📋 Vue d'ensemble
-
-| Champ | Détail |
-|---|---|
-| **Auteur** | Samet ARI |
-| **Formation** | Bachelor IT — Cybersécurité & Réseaux |
-| **Version K3S** | v1.35.5+k3s1 |
-| **OS** | Debian 12 Bookworm |
-| **Hyperviseur** | VMware Workstation Pro |
+> Déploiement et gestion d'un cluster Kubernetes K3S sur 3 VM Debian 12 
 
 ---
-
 ## 🖥️ Architecture du cluster
 
 ```
@@ -69,25 +55,6 @@ k3s-cluster/
     ├── install-k3s-worker.sh
     └── verify-cluster.sh
 ```
-
----
-
-## 🗺️ Jobs réalisés
-
-| Job | Objectif | Statut |
-|---|---|---|
-| **01** | Création des VM + Installation K3S | ✅ |
-| **02** | Déploiement nginx, apache, mariadb | ✅ |
-| **03** | Création du cluster (1 master + 2 workers) | ✅ |
-| **04** | Haute disponibilité — test de panne worker | ✅ |
-| **05** | Stockage persistant PV/PVC | ✅ |
-| **06** | ConfigMaps | ✅ |
-| **07** | Secrets | ✅ |
-| **08** | RBAC — moindre privilège | ✅ |
-| **09** | Helm — cycle de vie complet | ✅ |
-
----
-
 ## ⚡ Démarrage rapide
 
 ### Prérequis
@@ -187,5 +154,3 @@ kubectl auth can-i delete pods --as=system:serviceaccount:default:stagiaire
 - Mettre en œuvre et optimiser la supervision des infrastructures
 
 ---
-
-*La Plateforme_ Marseille — Bachelor IT Cybersécurité — 2026*
