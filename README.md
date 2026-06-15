@@ -1,7 +1,6 @@
-# 🚢 Cluster K3S — La Plateforme_
+# 🚢 Cluster K3S 
 
-> Déploiement et gestion d'un cluster Kubernetes K3S sur 3 VM Debian 12  
-> **Bachelor IT Cybersécurité** — La Plateforme_ Marseille — Juin 2026
+> Déploiement et gestion d'un cluster Kubernetes K3S sur 3 VM Debian 12 
 
 ---
 
@@ -187,5 +186,3 @@ kubectl auth can-i delete pods --as=system:serviceaccount:default:stagiaire
 - Mettre en œuvre et optimiser la supervision des infrastructures
 
 ---
-
-*La Plateforme_ Marseille — Bachelor IT Cybersécurité — 2026*
