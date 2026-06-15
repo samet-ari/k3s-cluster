@@ -3,19 +3,6 @@
 > Déploiement et gestion d'un cluster Kubernetes K3S sur 3 VM Debian 12 
 
 ---
-
-## 📋 Vue d'ensemble
-
-| Champ | Détail |
-|---|---|
-| **Auteur** | Samet ARI |
-| **Formation** | Bachelor IT — Cybersécurité & Réseaux |
-| **Version K3S** | v1.35.5+k3s1 |
-| **OS** | Debian 12 Bookworm |
-| **Hyperviseur** | VMware Workstation Pro |
-
----
-
 ## 🖥️ Architecture du cluster
 
 ```
