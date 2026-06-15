@@ -55,25 +55,6 @@ k3s-cluster/
     ├── install-k3s-worker.sh
     └── verify-cluster.sh
 ```
-
----
-
-## 🗺️ Jobs réalisés
-
-| Job | Objectif | Statut |
-|---|---|---|
-| **01** | Création des VM + Installation K3S | ✅ |
-| **02** | Déploiement nginx, apache, mariadb | ✅ |
-| **03** | Création du cluster (1 master + 2 workers) | ✅ |
-| **04** | Haute disponibilité — test de panne worker | ✅ |
-| **05** | Stockage persistant PV/PVC | ✅ |
-| **06** | ConfigMaps | ✅ |
-| **07** | Secrets | ✅ |
-| **08** | RBAC — moindre privilège | ✅ |
-| **09** | Helm — cycle de vie complet | ✅ |
-
----
-
 ## ⚡ Démarrage rapide
 
 ### Prérequis
